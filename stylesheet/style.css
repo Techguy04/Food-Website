@@ -29,6 +29,7 @@
 
 body {
 	overflow-y: hidden;
+	background-color: black !important;
 }
 
 .body-section {
@@ -453,6 +454,10 @@ body {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	.dailyitems ul li {
+		font-size: 12px;
 	}
 
 	.logo-txt h1 {

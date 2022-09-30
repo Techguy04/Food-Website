@@ -653,9 +653,10 @@ body {
 
 	.logo-txt p {
 		text-align: center;
-		display: flex;
-		align-items: center;
+		/* display: flex;
+		align-items: center; */
 		justify-content: center;
+		width: fit-content;
 	}
 
 	.logo-txt h1 {
@@ -680,13 +681,15 @@ body {
 
 	.heromain-txt h1 {
 		font-size: 20px;
+		width: 60px;
 	}
+
 	/* .herotxt {
 		flex-direction: column;
 	} */
 
 	.herotxt p {
-		width: 200px;
+		width: 150px;
 		font-size: 13px;
 		/* text-align: center; */
 	}
